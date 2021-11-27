@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: darkgoldenrod;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(231, 209, 179);
+}
+.change-time {
+    margin-top: 40px;
+    height: 50px;
+    width: 300px;
+    font-size: 24px;
+    color: rgb(231, 209, 179);
+    background-color: rgb(133, 75, 27);
+    border: 2px solid rgb(133, 75, 27);
+    border-radius: 5px;
+    box-shadow: 8px 4px 16px -1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: linear 0.3s;
+}
+
+.change-time:hover {
+    transform: scale(1.1);
+    background-color: rgb(112, 63, 22);
+}
